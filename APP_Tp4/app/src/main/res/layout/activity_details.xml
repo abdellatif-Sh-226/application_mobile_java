@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Champs d'affichage -->
+    <TextView
+        android:id="@+id/nomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom :" />
+
+    <TextView
+        android:id="@+id/prenomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prénom :" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email :" />
+
+    <TextView
+        android:id="@+id/telephoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Téléphone :" />
+
+    <!-- break up -->
+    <Button
+        android:id="@+id/retourButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retour" />
+</LinearLayout>
